@@ -1,8 +1,29 @@
 aid: natural-cycles
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/natural-cycles.png
 name: Natural Cycles
-description: 'Natural Cycles is a company surfaced as a portfolio company of eqt-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Natural Cycles is a Swedish women's-health company behind the first birth-control
+  application cleared by the US FDA (2018) and CE-marked in Europe as a Class IIb
+  medical device. Its subscription app uses a proprietary temperature-based algorithm
+  to identify fertile and non-fertile days from a user's daily basal body temperature,
+  supporting both preventing and planning pregnancy as well as cycle, ovulation, and
+  perimenopause tracking. Temperature is captured with a paired Bluetooth basal
+  thermometer or through consumer wearables the app integrates with — Apple Watch,
+  Oura Ring, and the NC B1 band. Natural Cycles publishes clinical research, an
+  educational content library (CycleMatters), an e-commerce shop for thermometers and
+  tests, and a public bug-bounty / responsible-disclosure program, but it does not
+  expose a public developer API, developer portal, or OpenAPI. Backed by EQT Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/natural-cycles/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Health Tech
+- Femtech
+- Women's Health
+- Fertility
+- Birth Control
+- Cycle Tracking
+- Wearables
+- Digital Health
+- Medical Device
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.naturalcycles.com/
+- type: HelpCenter
+  url: https://www.naturalcycles.com/faqs
+- type: Blog
+  url: https://www.naturalcycles.com/cyclematters
+- type: PrivacyPolicy
+  url: https://www.naturalcycles.com/other/legal/privacy
+- type: TermsOfService
+  url: https://www.naturalcycles.com/other/legal/terms
+- type: SecurityTxt
+  url: well-known/natural-cycles-security.txt
+- type: WellKnown
+  url: well-known/natural-cycles-well-known.yml
+- type: Security
+  url: https://www.naturalcycles.com/other/legal/bug-bounty
+- type: VulnerabilityDisclosure
+  url: security/natural-cycles-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/natural-cycles-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

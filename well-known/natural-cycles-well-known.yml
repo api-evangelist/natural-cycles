@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of https://www.naturalcycles.com/.well-known/*
+host: https://www.naturalcycles.com
+documents:
+- path: /.well-known/security.txt          # RFC 9116
+  status: 200
+  file: natural-cycles-security.txt
+- path: /.well-known/openid-configuration   # OIDC discovery
+  status: 404
+- path: /.well-known/oauth-authorization-server  # RFC 8414
+  status: 404
+- path: /.well-known/api-catalog            # RFC 9727
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  api.naturalcycles.com resolves (35.195.252.168) but is a locked-down mobile-app
+  backend (TLS handshake / HTTP returns no response to public clients); it is not a
+  documented public developer API. No developer portal, OpenAPI, or OAuth discovery
+  surface was found. The only public discovery document is the RFC 9116 security.txt.

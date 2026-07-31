@@ -1,0 +1,4 @@
+Contact: mailto:security@naturalcycles.com
+Preferred-Languages: en
+Policy: https://www.naturalcycles.com/other/legal/bug-bounty
+Expires: 2028-01-09T00:00:00.000Z
