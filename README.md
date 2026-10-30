@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Natural Cycles is a company surfaced as a portfolio company of eqt-ventures and added to the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead awaiting the enrichment pipeline.
+Natural Cycles is a Swedish women's-health company behind the first birth-control application cleared by the US FDA (2018) and CE-marked in Europe as a Class IIb medical device. Its subscription app uses a proprietary temperature-based algorithm to identify fertile and non-fertile days from a user's daily basal body temperature, supporting both preventing and planning pregnancy as well as cycle, ovulation, and perimenopause tracking. Temperature is captured with a paired Bluetooth basal thermometer or through consumer wearables the app integrates with — Apple Watch, Oura Ring, and the NC B1 band. Natural Cycles publishes clinical research, an educational content library (CycleMatters), an e-commerce shop for thermometers and tests, and a public bug-bounty / responsible-disclosure program, but it does not expose a public developer API, developer portal, or OpenAPI. Backed by EQT Ventures.
 
-Backed by: eqt-ventures — https://www.naturalcycles.com/
+**Areas:** Company · Health Tech · Femtech · Women's Health · Fertility · Birth Control · Cycle Tracking · Wearables · Digital Health · Medical Devices · Sweden
+
+## Natural Cycles on APIs.io
+
+Everything profiled for Natural Cycles is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/natural-cycles/](https://apis.io/providers/natural-cycles/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Natural Cycles Domain Security](https://apis.io/security/natural-cycles/natural-cycles-domain-security/)
+- [Natural Cycles Vulnerability Disclosure](https://apis.io/security/natural-cycles/natural-cycles-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.naturalcycles.com/)
+- [Blog](https://www.naturalcycles.com/cyclematters)
+- [Security](https://www.naturalcycles.com/other/legal/bug-bounty)
+- [Terms of service](https://www.naturalcycles.com/other/legal/terms)
+- [Privacy policy](https://www.naturalcycles.com/other/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 11.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/natural-cycles/](https://apis.io/providers/natural-cycles/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Natural Cycles: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/natural-cycles/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
